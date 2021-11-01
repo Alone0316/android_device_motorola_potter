@@ -126,6 +126,7 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4.vendor \
     libjustshoot_shim \
     libgui_vendor \
+    libgpu_mapper_shim \
     libhidltransport
 
 PRODUCT_COPY_FILES += \
@@ -212,7 +213,6 @@ PRODUCT_PACKAGES += \
 
 # GPS / Location
 PRODUCT_PACKAGES += \
-    libgpu_mapper_shim \
     libqsap_shim \
     android.hardware.gnss@1.1-impl-qti.vendor
 
