@@ -214,7 +214,8 @@ PRODUCT_PACKAGES += \
 # GPS / Location
 PRODUCT_PACKAGES += \
     libqsap_shim \
-    android.hardware.gnss@1.1-impl-qti.vendor
+    android.hardware.gnss@1.1-impl-qti.vendor \
+    android.hardware.gnss@2.0.vendor
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/gps/flp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/flp.conf \
@@ -381,9 +382,9 @@ PRODUCT_COPY_FILES += \
 
 # RIL
 PRODUCT_PACKAGES += \
-    android.hardware.radio@1.1 \
-    android.hardware.radio.config@1.0 \
-    android.hardware.secure_element@1.0 \
+    android.hardware.radio@1.1.vendor \
+    android.hardware.radio.config@1.0.vendor \
+    android.hardware.secure_element@1.0.vendor \
     librmnetctl \
     libprotobuf-cpp-full \
     libxml2 \
