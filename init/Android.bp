@@ -24,7 +24,7 @@ motorola_potter_init_library_static {
     include_dirs: [
         "system/libbase/include",
         "system/core/init",
-        "device/moto/potter"
+        "device/motorola/potter"
     ],
     shared_libs: [
         "libbase",
