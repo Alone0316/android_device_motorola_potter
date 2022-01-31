@@ -25,7 +25,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 
 # TWRP theme
 TW_THEME := portrait_hdpi
-BOOT_ANIMATION_SIZE := 1440p
+BOOT_ANIMATION_SIZE := 1080p
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := potter
